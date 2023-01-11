@@ -1,0 +1,135 @@
+.header {
+  height: 100px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.nav-row {
+  background: #ED1B24;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 83px;
+}
+
+.nav-row_contacts p {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-row_contacts__item1 {
+  font-size: 22px;
+}
+
+.nav-row_contacts__item2 {
+  font-size: 21px;
+  margin-left: 50px;
+}
+
+.nav-row_contacts__item1, .nav-row_contacts__item2 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-row_contacts, .nav-row_socials {
+  display: flex;
+}
+
+.nav-row_socials {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  padding: 23px 0 21px 0;
+}
+
+.nav-menu {
+  padding: 37px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-menu_logo img {
+  height: 65px;
+}
+
+.nav-menu_logo {
+  display: flex;
+}
+
+.nav-menu_logo h1 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: vertical;
+  color: #000000;
+}
+
+.nav-menu_logo sup {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 23px;
+  color: #000000;
+  padding-left: 10px;
+}
+
+.nav-menu_pages {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.button {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 37px;
+  padding: 17px 40px;
+  border: none;
+  border-radius: 11px;
+}
+
+.btn--red {
+  align-items: center;
+  text-align: center;
+  background: #ED1B24;
+  color: #FFFFFF;
+}
+
+.nav-menu_pages a {
+  text-decoration: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 34px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
